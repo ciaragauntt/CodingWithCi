@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+#page-0 {
+
+  background-color: #97a366;
+  color: white;
+  height: 75%;
+  margin-top: 10%;
+
+}
+
+#name-logo{
+ font-size: 50px;
+}
+
+.font-link {
+  font-family: 'Meddon', cursive;
+}
+
+#name{
+  text-align: left;
+  position: fixed;
+  left: 36px;
+  top: 36px;
+  color: Black;
+  font-size:200%;
+}
+
+#last-name{
+  text-align: left;
+  position: fixed;
+  left: 80px;;
+  top: 43px;;
+  font-size: 120%;
+}
+
+.font-style{
+  font-family: 'Meddon', cursive;
+  font-family: 'Raleway', sans-serif;
+}
