@@ -1,0 +1,15 @@
+div {
+    height: 600px;
+    width: 100%;
+    background-image: url("C:\Users\cigau\CodingWithCi\ciara-portfolio\src\images\Tezza-4767.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 70%;
+}
+
+#title {
+    color:aliceblue;
+    text-align: center;
+    font-size: 450px;
+    margin: 0;
+}
