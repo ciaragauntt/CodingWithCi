@@ -1,19 +1,20 @@
 import React from 'react';
 import './App.css';
 import Sidebar from './components/Sidebar';
+import { ReactComponent as Logo } from './logo.svg';
 import { Animator, ScrollContainer, ScrollPage, batch, Fade, FadeIn, FadeOut, Move, MoveIn, MoveOut, Sticky, StickyIn, StickyOut, Zoom, ZoomIn, ZoomOut } from "react-scroll-motion";
 
 
 function App() {
   return (
     <div className="App" id="outer-container">
-      <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
+  
+     <Logo id="logo"/>
+  
      <div id="page-wrap">
      </div>
      <ScrollContainer>
       <ScrollPage page={0}>
-      <div id="name" className="font-link">Ciara</div>
-      <div id="last-name" className="font-style">GAUNTT</div>
         <div id="page-0">
         <Animator animation={batch(Sticky(), Fade(), MoveOut())}>
           <div id="name-logo">Hello World!</div>

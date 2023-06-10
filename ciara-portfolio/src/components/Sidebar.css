@@ -53,8 +53,9 @@
   .bm-item-list {
     color: #b8b7ad;
     padding: 0.8em;
-    font-family: 'Meddon', cursive;
-    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Meddon', cursive;
+    font-family: 'Raleway', sans-serif; */
+    font-family: 'Questrial', sans-serif;
   }
   
   /* Individual item */
